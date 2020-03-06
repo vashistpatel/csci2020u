@@ -24,8 +24,8 @@ public class Main extends Application {
         circle.setFill(Color.TRANSPARENT);
         circle.setStroke(Color.BLACK);
 
+        //creates the angle, dots and the lines bewtween them
         Circle[] circleDots = new Circle[3];
-
         Line[] lines = new Line[3];
         Text[] angles = new Text[3];
 
@@ -35,6 +35,8 @@ public class Main extends Application {
             randomLoaction(circleDots[i], circle);
 
             final int indexNum = i;
+
+            //mouse movement
             circleDots[i].setOnMouseDragged(mouseEvent -> {
                 double rad = Math.atan2(mouseEvent.getY()-circle.getCenterY(),mouseEvent.getX()-circle.getCenterX());
                 double x = circle.getCenterX()+circle.getRadius()*Math.cos(rad);
@@ -45,6 +47,7 @@ public class Main extends Application {
                 newLineLocation(lines,circleDots,angles);
             });
 
+            //sets the colour
             circleDots[i].setFill(Color.RED);
             circleDots[i].setStroke(Color.BLACK);
 
@@ -55,15 +58,12 @@ public class Main extends Application {
             if(smallCirlce == lines.length){
                 smallCirlce = 0;
             }
-            lines[i] = new Line(
-                    circleDots[i].getCenterX(),circleDots[i].getCenterY(),circleDots[smallCirlce].getCenterX(),circleDots[smallCirlce].getCenterY());
+            lines[i] = new Line(circleDots[i].getCenterX(),circleDots[i].getCenterY(),circleDots[smallCirlce].getCenterX(),circleDots[smallCirlce].getCenterY());
         }
 
         newLineLocation(lines, circleDots,angles);
         pane.getChildren().addAll(lines);
         pane.getChildren().addAll(circleDots);
-//        circl
-//        circle.setStroke(Color.TAN);
         pane.getChildren().addAll(angles);
 
         //Outputs the pane
@@ -71,6 +71,8 @@ public class Main extends Application {
         primaryStage.show();
     }
 
+
+    //updates the new location of the line after the mouse movements by the user
     private void newLineLocation(Line[] line, Circle[] circle,Text[] angle){
         for (int i = 0; i < line.length; i++) {
             int index = i+1;
@@ -97,6 +99,7 @@ public class Main extends Application {
 
     }
 
+    //calculates the length of the line
     private static double lineLength(Line line){
         double startX = line.getStartX();
         double startY = line.getStartY();
@@ -106,7 +109,7 @@ public class Main extends Application {
         return lineofLenght;
     }
 
-
+    //sets the points to random loaction
     private void randomLoaction(Circle circleDot, Circle circle){
         double random = Math.random()*360;
         double x = circle.getCenterX()+circle.getRadius()*Math.cos(Math.toRadians(random));
