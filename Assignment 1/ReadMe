@@ -1,7 +1,17 @@
+Vashist Patel 100699500
+Saenthuran 100705726
+
 To download a program program click on the project name you which too download. Then click on the “src” file and then “sample” file. Now click on the Main.java file and copy the code. Open a new IntelliJ JavaFX file and paste the code in there and click run.
+
+Question1: 
+Please make sure you have a folder named "Cards" the code will look for the Cards folder and try to access
+the pngs from 1-52.png.
 
 Investment-Value
 For this program after clicking the run button, in the investment amount box, fill out the  amount of money you wish to invest. Then in the years box, type in the number of years you wish to invest that money in for and finally in the annual interest rate box type in the yearly interest you are getting. Then click calculate and it will show you how much money you are going to have in the future.
 
 Dragging Point on a Circle
 For this program after click the run button, you will be shown the circle with three points on it, a line connecting all he dots and the angle between them. You can drag around the points and watch the angles between them change. 
+
+Question4: 
+Input a textfile name that is outside of the src folder, then click View
