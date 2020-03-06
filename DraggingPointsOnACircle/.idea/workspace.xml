@@ -57,7 +57,7 @@
     </FindUsagesManager>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectId" id="1YdPQu1xD9mtvPcM1ACEZtigU4g" />
+  <component name="ProjectId" id="1Yjjsw7cKExx1qEOdGlHY3riom5" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -74,10 +74,8 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -111,8 +109,8 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="sample.Main" />
-      <module name="Investment-Value" />
-      <option name="VM_PARAMETERS" value="--module-path $USER_HOME$/Desktop/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml " />
+      <module name="DraggingPointsOnACircle" />
+      <option name="VM_PARAMETERS" value="--module-path $PROJECT_DIR$/../Desktop/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="sample.*" />
@@ -185,33 +183,29 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583355841765">
+    <state x="369" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583463167268">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="184" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1583355841765" />
-    <state width="1398" height="77" key="GridCell.Tab.0.bottom" timestamp="1583355844502">
+    <state x="369" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1583463167268" />
+    <state width="678" height="230" key="GridCell.Tab.0.bottom" timestamp="1583463185324">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="77" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1583355844502" />
-    <state width="1398" height="77" key="GridCell.Tab.0.center" timestamp="1583355844501">
+    <state width="678" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1583463185324" />
+    <state width="678" height="230" key="GridCell.Tab.0.center" timestamp="1583463185323">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="77" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1583355844501" />
-    <state width="1398" height="77" key="GridCell.Tab.0.left" timestamp="1583355844501">
+    <state width="678" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1583463185323" />
+    <state width="678" height="230" key="GridCell.Tab.0.left" timestamp="1583463185322">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="77" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1583355844501" />
-    <state width="1398" height="77" key="GridCell.Tab.0.right" timestamp="1583355844501">
+    <state width="678" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1583463185322" />
+    <state width="678" height="230" key="GridCell.Tab.0.right" timestamp="1583463185324">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="77" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1583355844501" />
-    <state x="208" y="44" key="SettingsEditor" timestamp="1583355803266">
+    <state width="678" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1583463185324" />
+    <state x="416" y="44" key="SettingsEditor" timestamp="1583463149511">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="208" y="44" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1583355803266" />
-    <state x="886" y="23" width="515" height="857" key="dock-window-1" timestamp="1583368297583">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="886" y="23" width="515" height="857" key="dock-window-1/0.23.1440.877@0.23.1440.877" timestamp="1583368297583" />
+    <state x="416" y="44" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1583463149511" />
   </component>
 </project>
