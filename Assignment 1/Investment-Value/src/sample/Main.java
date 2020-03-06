@@ -91,7 +91,7 @@ public class Main extends Application {
 
         Scene scene = new Scene(pane);
         primaryStage.setScene(scene);
-        primaryStage.setTitle("Lab04");
+        primaryStage.setTitle("Exercise16_5");
         primaryStage.show();
     }
 
